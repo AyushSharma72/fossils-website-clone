@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@100;400&display=swap');
+body
+{
+margin:0px;
+}
+.mediaheaddiv{
+    display:flex;
+    justify-content: space-between;
+    background-color:#fff;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0%;
+    align-items: center;
+}
+.uldiv768 ul{
+    display:flex;
+    list-style-type:none;
+    justify-content: space-between;
+    gap:20px;  
+    padding-right:1rem;
+}
+.heading{
+    background-color:#fff;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    padding:5px 10px;
+}
+.headul ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    gap:20px;   
+
+}
+.navcont{
+  z-index: 100;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+.navbar {
+   display:flex;
+    justify-content:space-between;
+    width: 100%;
+   
+}
+.headerdiv{
+    background-color: darkgrey;
+    width:100%;
+    height:2rem;
+    min-width:774px;
+
+}
+.fossildiv{
+    display: flex;
+    justify-content:space-between;
+    width: 65%;
+    margin-bottom: 0px;
+
+}
+    .fossil ul{
+    list-style-type: none;
+    font-size:1.7em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:600;
+    margin-top:40%;
+    padding-left:1rem;
+    cursor: pointer;
+   
+    }
+
+.items ul{
+   cursor: pointer;
+    display: flex;
+    gap:1em;
+    font-size:0.9em;
+    list-style-type: none;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:9.3%;
+    margin-left:11%;
+   
+    }
+   
+.logindiv{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-top: 0%;
+    margin-right:1%;
+}
+.login ul{
+    cursor: pointer;
+    display: flex;
+    justify-content:end;
+    gap: 1em;
+    list-style-type: none;
+    font-size:1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.div2{ 
+    background-color:rgb(237, 234, 217);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    margin-top:9rem;
+    width: 100%;
+}
+.xyz{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+.div3{
+    flex-wrap: wrap;
+    flex-direction: column;
+    color:#3b76ca;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.div4{
+    color:#3b76ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    color:#3b76ca;
+    cursor: pointer;
+
+}
+.div-3 img{
+    background-size:cover;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  
+   
+}
+.div-3{
+    flex-direction: column;
+     width: 100%;
+    display: flex;
+    align-items:end;
+    background-color:hwb(0 2% 32%);
+
+}
+.parent{
+    width:75%;
+    display: flex;
+    justify-content:space-around;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+  
+}
+.csoon{
+    font-size:1.8rem;font-weight: 600; color: #fff;
+}
+.image{
+    position: relative;
+}
+.image img:nth-child(1){
+    display:none;
+   
+ }
+ .image img:nth-child(2){
+    width: 100%;
+ }
+.imageinnerdiv{
+    height: auto;
+    width: 100%;
+    position:absolute;
+    top:0%;
+    right:0%;
+    height:90%;
+    padding:1.83% 1.5%;
+    display:flex;
+    justify-content: center;
+ 
+}
+.imagecontent{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.imgedowntext{
+
+    width: 100%;
+
+}
+.imgedowntext p{
+    font-size:2.5rem;
+    font-weight:600;
+}
+.para3{
+    display: block;
+    font-size:3rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+   color:#dc3545;
+   font-weight: 600;
+
+}
+.para4{
+    display: block;
+    margin-top:1%;
+    color: #fff;
+}
+.shopbutton{
+    text-align: center;
+    margin-top: 1%;
+    background-color: #fff;
+    font-size:0.9rem;
+    padding:3% 9%;
+    border-radius:50px;
+    transition: 0.5s;
+}
+.shopbutton:hover{
+    color:#fff;
+    background-color: black;
+    border: 1px solid #fff;
+
+}
+.image2{
+    position: relative;
+}
+.image2 img{
+    background-size: cover;
+    width: 100%;
+   
+}
+.image2div{                                          
+    top:35%;
+    left:40.5%;
+   position:absolute;
+    display:flex;
+   
+}
+.image2div2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.image2-768{
+    display: none;
+}
+.shopbutton2{
+    text-align: center;
+    color:#fff;
+    margin-top: 1%;
+    background-color:black;
+    font-size:0.9rem;
+    padding:5% 12%;
+    border-radius:50px;
+    transition: 0.5s;
+
+}
+.shopbutton2:hover{
+    color:black;
+    background-color:#fff;
+    border: 1px solid black
+
+}
+.image3{
+    margin-top:40px;
+}
+.image3div{
+    display: flex;
+    gap:20px;
+    justify-content:center;
+    margin-bottom:4%;
+    width: 100%;    
+}
+.img1,.img2,.img3
+{  cursor: pointer;
+    height:10%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1 img{
+    height:100%;
+   width: 100%;
+}
+.img2 img{
+    height:100%;
+    width:100%
+}
+.img3 img{
+    height:100%;
+    width:100%
+}
+.hidden{
+display: none;
+}
+
+.footer{
+    width:100%;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content:space-evenly; 
+    margin-bottom:5%;
+    flex-wrap:wrap;
+}
+
+
+.bdiv1{
+  display: flex;
+  flex-direction:column;
+  align-items:start;
+  flex-wrap: wrap;
+  padding-left:10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.icons ul{
+    list-style-type:none;
+    display:flex; 
+      gap:30%;
+}
+.fa-brands{
+    cursor: pointer;
+}
+.ulicons{
+    display:flex;
+    justify-content:start;    
+}
+
+
+.parax{
+    font-size: 1.25rem;
+     font-weight: 600; 
+     margin-bottom:0.5rem;
+     text-align:center;
+}
+.paray{
+font-size: 1.25rem; 
+font-weight: 600;  
+margin-bottom:0.5rem;
+text-align:center;
+}
+.bdiv2-cont ul li{
+    list-style-type:none;
+    margin-top: 10%;
+}
+
+
+.bdiv3-cont ul li{
+    list-style-type:none;
+    margin-top:10%;   
+}
+
+.bdiv3 ul{
+    margin-top: 0%;
+}
+#minus1{
+    display:none;
+}
+#minus2{
+    display:none;
+}
+.lastdiv ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-evenly;
+    font-size: 0.75rem;
+    background-color:rgb(237, 234, 217);
+    padding:15px;
+    margin-bottom:0px;
+    cursor: pointer;
+  
+}
+#plus1{
+display: none;
+}
+#plus2{
+    display: none;
+}
